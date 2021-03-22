@@ -1,0 +1,12 @@
+# ls:
+#   '{packages}':
+#       .dir: kebab-case | camelCase
+#       .js: kebab-case | camelCase
+#       .vue: PascalCase
+#       .ts: camelCase | camelCase
+
+# ignore: 
+#     - .git 
+#     - ./packages/**/node_modules/
+#     - tests
+#     - build

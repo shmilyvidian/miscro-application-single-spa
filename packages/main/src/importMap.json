@@ -1,0 +1,5 @@
+{
+    "imports": {
+      "sub_vue": ["http://localhost:9000/js/app.js", "http://localhost:9000/js/chunk_vendor.js"]
+    }
+  }
