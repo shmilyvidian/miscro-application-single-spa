@@ -1,1 +1,1 @@
-## micro front end application
+## miscro front end application
