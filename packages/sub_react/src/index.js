@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import singleSpaReact from 'single-spa-react'
 import App from './App'
 
-if (process.env.NODE_ENV === 'development') {
+if (!window.singleSpaNavigate) {
   // 开发环境直接渲染
   ReactDOM.render(<App />, document.getElementById('root'))
 }
