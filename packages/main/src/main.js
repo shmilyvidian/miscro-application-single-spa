@@ -31,7 +31,10 @@ registerApplication('sub_vue',
 registerApplication('sub_react',
   async ()=>{
       //当匹配成功的时候，加载子应用的js
-      await loadScript(`http://localhost:3000/static/js/main.js`)
+      await loadScript(`http://localhost:3000/static/js/bundle.js`)
+      await loadScript(`http://localhost:3000/static/js/vendors~main.chunk.js`)
+      await loadScript(`http://localhost:3000/static/js/main.chunk.js`)
+      
       return window.sub_react; // 子应用打包umd格式。bootstrap mount unmount
   },
   //当匹配到/vue的时候执行上面的方法
