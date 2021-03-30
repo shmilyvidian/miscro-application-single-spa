@@ -1,3 +1,3 @@
 // import { setPublicPath } from 'systemjs-webpack-interop'
 
-// setPublicPath('sub_vue', 2)
+__webpack_public_path__ = "http://localhost:9000/"

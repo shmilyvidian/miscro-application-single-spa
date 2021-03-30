@@ -8,7 +8,7 @@ Vue.use(router)
 Vue.config.productionTip = false
 
 const appOptions = {
-    el: "#sub_vue-app",
+    el: "#microApp",
     router,
     render: h => h(App)
 };
@@ -18,10 +18,10 @@ const vueLifecycles = singleSpaVue({
     Vue,
     appOptions
 });
-if(window.singleSpaVue){
-    __webpack_public_path__ = 'http://localhost:9000/'
+// if(window.singleSpaVue){
+//     __webpack_public_path__ = 'http://localhost:9000/'
 
-}
+// }
 if(!window.singleSpaVue){
     delete appOptions.el
     new Vue(appOptions).$mount("#app")

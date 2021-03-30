@@ -1,5 +1,5 @@
 <template>
     <div class="home">
-        home
+        sub vue application home page
     </div>
 </template>

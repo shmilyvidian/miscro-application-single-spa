@@ -1,17 +1,19 @@
 <template>
   <div id="single-vue-app">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <router-link to="/sub_vue">sub_vue</router-link>
+    |
+    <router-link to="/sub_react">sub_react</router-link>
+       <!-- 子应用容器 -->
+    <div id = "microApp">
+      <router-view/>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'app',
-  components: {
-    HelloWorld
-  }
 }
 </script>
 

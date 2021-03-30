@@ -12,7 +12,8 @@
     "core-js": "^2.6.5",
     "single-spa": "^5.9.2",
     "systemjs": "^6.8.3",
-    "vue": "^2.6.10"
+    "vue": "^2.6.10",
+    "vue-router": "^3.5.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.5",
@@ -21,7 +22,7 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
-    "vue-template-compiler": "^2.6.10"  
+    "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
     "root": true,

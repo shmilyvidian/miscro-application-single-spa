@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import {registerApplication,start} from 'single-spa';
+import router from './router'
 
 Vue.config.productionTip = false
 
@@ -19,7 +20,7 @@ registerApplication('sub_vue',
   async ()=>{
       //当匹配成功的时候，加载子应用的js
       await loadScript(`http://localhost:9000/app.js`)
-      await loadScript(`http://localhost:9000/chunk-vendors.js`);
+      // await loadScript(`http://localhost:9000/chunk-vendors.js`);
       return window.sub_vue; // 子应用打包umd格式。bootstrap mount unmount
   },
   //当匹配到/vue的时候执行上面的方法
@@ -41,6 +42,6 @@ registerApplication('sub_react',
 start();
 
 new Vue({
-    // router,
+    router,
     render: h => h(App)
   }).$mount('#app');

@@ -13,7 +13,7 @@ const reactLifecycles = singleSpaReact({
   React,
   ReactDOM,
   rootComponent: App,
-  domElementGetter: () => document.getElementById('root')
+  domElementGetter: () => document.getElementById('microApp')
 })
 
 // 项目启动的钩子

@@ -10,7 +10,7 @@ const routes = [
   ]
 export default new VueRouter({
   // base: process.env.BASE_URL,
-
-  baseRouter: '/sub_vue',
+  mode: 'history',
+  base: '/sub_vue',
   routes,
 })
