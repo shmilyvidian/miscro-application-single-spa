@@ -8,5 +8,12 @@ module.exports = {
             library: "sub_vue",
             libraryTarget: "umd",
         }
+    },
+    css:{
+        loaderOptions:{
+            postcss:{
+                plugins:[require('postcss-plugin-namespace')('.single-spa-subVue',{ ignore: [ '*','#app' ] })]
+            }
+        }
     }
 }

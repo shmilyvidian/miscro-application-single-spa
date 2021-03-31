@@ -6307,6 +6307,13 @@ postcss-reduce-transforms@^4.0.2:
     postcss "^7.0.0"
     postcss-value-parser "^3.0.0"
 
+postcss-selector-namespace@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.npm.taobao.org/postcss-selector-namespace/download/postcss-selector-namespace-3.0.1.tgz#6d62d0e6a9084c35b11cd669f715196e4320ad2d"
+  integrity sha1-bWLQ5qkITDWxHNZp9xUZbkMgrS0=
+  dependencies:
+    postcss "^7.0.0"
+
 postcss-selector-parser@^3.0.0:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/postcss-selector-parser/-/postcss-selector-parser-3.1.1.tgz#4f875f4afb0c96573d5cf4d74011aee250a7e865"
@@ -7587,6 +7594,11 @@ svgo@^1.0.0:
     unquote "~1.1.1"
     util.promisify "~1.0.0"
 
+systemjs-webpack-interop@^2.3.6:
+  version "2.3.6"
+  resolved "https://registry.npm.taobao.org/systemjs-webpack-interop/download/systemjs-webpack-interop-2.3.6.tgz#6a0efd60e9dcc45403a472397972b6b2443705b6"
+  integrity sha1-ag79YOncxFQDpHI5eXK2skQ3BbY=
+
 table@4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/table/-/table-4.0.2.tgz#a33447375391e766ad34d3486e6e2aedc84d2e36"
@@ -8082,6 +8094,11 @@ vue-loader@^15.7.0:
     loader-utils "^1.1.0"
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
+
+vue-router@^3.5.1:
+  version "3.5.1"
+  resolved "https://registry.npm.taobao.org/vue-router/download/vue-router-3.5.1.tgz?cache=0&sync_timestamp=1615477493682&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvue-router%2Fdownload%2Fvue-router-3.5.1.tgz#edf3cf4907952d1e0583e079237220c5ff6eb6c9"
+  integrity sha1-7fPPSQeVLR4Fg+B5I3Igxf9utsk=
 
 vue-style-loader@^4.1.0:
   version "4.1.2"

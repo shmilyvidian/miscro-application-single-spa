@@ -3,7 +3,10 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App single-spa-subReact">
+      <div className="home">
+        this is sub react application
+      </div>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

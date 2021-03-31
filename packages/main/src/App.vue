@@ -1,5 +1,5 @@
 <template>
-  <div id="single-vue-app">
+  <div id="single-vue-app" class="single-spa-main">
     <router-link to="/sub_vue">sub_vue</router-link>
     |
     <router-link to="/sub_react">sub_react</router-link>
@@ -7,6 +7,10 @@
     <div id = "microApp">
       <router-view/>
     </div>
+    <div class="home">        
+          this is main application
+    </div>
+    
   </div>
 </template>
 
@@ -25,5 +29,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.home {
+  color:aqua
 }
 </style>

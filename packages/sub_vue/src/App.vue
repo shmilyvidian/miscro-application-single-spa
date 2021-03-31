@@ -1,5 +1,5 @@
 <template>
-  <div id="single-vue-app">
+  <div id="single-vue-app" class="single-spa-subVue">
     
     <router-link to="/home">home</router-link>
     &nbsp;&nbsp;&nbsp;&nbsp;

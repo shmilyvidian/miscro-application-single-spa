@@ -1,4 +1,4 @@
-const { override } = require('customize-cra');
+const { override, addPostcssPlugins } = require('customize-cra');
 const addCustomize = () => config => {
     // if (process.env.NODE_ENV === 'production') {
       // 关闭sourceMap
@@ -13,6 +13,13 @@ const addCustomize = () => config => {
 
 module.exports = {
     webpack: override(
-        addCustomize()
-    )
+        addCustomize(),
+        addPostcssPlugins(
+            [
+                require('postcss-plugin-namespace')('.single-spa-subReact',{ ignore: [ '*','#app' ] }) 
+            ]
+           
+        )
+    ),
+    
 };
